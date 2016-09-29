@@ -1,0 +1,9 @@
+<ul class="listProducts">
+    {{#each this}}
+        <li data-sku="{{sku}}">
+            <div class="image"><img src="{{thumbnailImage}}"/></div>
+            <div class="name">{{name}}</div>
+            <div class="salePrice">${{salePrice}}</div>
+        </li>
+    {{/each}}
+</ul>
